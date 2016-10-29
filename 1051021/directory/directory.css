@@ -1,0 +1,30 @@
+* {
+    padding: .5em;
+    background-image: url("../directory/directory-02.png");
+    background-size: 1280px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "arial", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.aa {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+
+.bb {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 350px;
+}
