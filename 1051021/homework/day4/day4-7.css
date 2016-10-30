@@ -1,0 +1,31 @@
+* {
+    padding: .5em;
+    background-image: url("../back-image/Fireworks-01.png");
+    background-size: 1270px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "arial", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+
+.aa {
+    position: absolute;
+    left: 70px;
+    top: 200px;
+}
+
+.bb {
+    position: absolute;
+    width: 600px
+;
+    left: 550px;
+    top: 270px;
+}
+
+.cc {
+    position: absolute;
+    top: 500px;
+    left: 800px;
+}

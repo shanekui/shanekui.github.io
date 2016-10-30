@@ -1,0 +1,49 @@
+* {
+    padding: .5em;
+    background-image: url("back-image/home-01.png");
+    background-size: 1280px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "arial", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+h1 {
+    color: black;
+    font-size: 20px;
+}
+
+.aa {
+    position: absolute;
+    top: 160px;
+    left: 70px;
+}
+
+.bb {
+    position: absolute;
+    top: 460px;
+    left: 60px;
+}
+
+.cc {
+    position: absolute;
+    top: 160px;
+    left: 290px;
+}
+
+.dd {
+    color: black;
+    width: 430px;
+    height: 300px;
+    position: absolute;
+    top: 160px;
+    left: 600px;
+}
+
+.ee {
+    position: absolute;
+    top: 500px;
+    left: 40px;
+}
