@@ -1,0 +1,67 @@
+* {
+    padding: .5em;
+    background-image: url("../../1051021/directory/directory-02.png");
+    background-size: 1280px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "arial", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h3 {
+    padding: 0em;
+    width: 150px;
+    height: 20px;
+    position: fixed;
+    left: 305px;
+    top: 100px;
+}
+
+p {
+    padding: 0em;
+    width: 100px;
+    height: 20px;
+}
+
+th {
+    color: #FFFFFF;
+}
+
+.aa {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+
+.bb {
+    padding: 0em;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    left: 305px;
+    top: 180px;
+    border: 1px dotted black;
+    width: 670px;
+    height: 340px;
+    overflow: scroll;
+    text-align: center;
+}
+
+.cc {
+    padding: 0em;
+    width: 100px;
+    top: 530px;
+    position: fixed;
+    left: 305px;
+}
+
+.dd {
+    padding: 0em;
+    position: fixed;
+    top: 500px;
+    left: 30px;
+}
