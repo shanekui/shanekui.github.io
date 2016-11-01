@@ -3,6 +3,7 @@
     background-image: url("../directory/directory-02.png");
     background-size: 1280px;
     background-repeat: no-repeat;
+
     background-attachment: fixed;
     font-family: "arial", sans-serif;
     color: black;

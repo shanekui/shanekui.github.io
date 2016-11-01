@@ -1,0 +1,154 @@
+* {
+    font-family: "arial", sans-serif;
+    background-color: #FFFF00
+;
+}
+
+.aa,
+h1 {
+    background-color: #ffd508;
+    color: #8b2900;
+}
+
+.circle1 {
+    top: -80px;
+    left: 480px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #ffd508;
+    padding: 40px;
+    margin: 50px;
+    width: 220px;
+    height: 220px;
+    border-radius: 99em;
+    font-size: 11px;
+    text-align: center;
+    color: #FFFF00;
+}
+
+td,
+img {
+    background-color: #e63900;
+}
+
+a {
+    position: absolute;
+    box-sizing: border-box;
+    top: 40px;
+    left: 30px;
+    background-color: #e63900;
+}
+
+p {
+    font-family: "arial", sans-serif;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 15px;
+    font-size: 13px;
+    background-color: #e63900;
+    color: color: #FFFFFF;
+}
+
+.circle2 {
+    top: 180px;
+    left: 380px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #e63900;
+    padding: 30px;
+    margin: 20px;
+    width: 210px;
+    height: 210px;
+    border-radius: 99em;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+table {
+    top: 60px;
+    left: 20px;
+    width: 175px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: -5px;
+    background-color: #e63900;
+}
+
+h2 {
+    top: 50px;
+    left: 50px;
+    width: 300px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+.circle3 {
+    top: 150px;
+    left: 550px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    padding: 40px;
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+    border-radius: 99em;
+    text-align: center;
+    color: #e63900;
+}
+
+.circle4 {
+    top: 100px;
+    left: 850px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin: 25px;
+    width: 150px;
+    height: 150px;
+    border-radius: 99em;
+}
+
+.circle5 {
+    bottom: 100px;
+    right: 100px;
+    position: fixed;
+    box-sizing: border-box;
+    background-color: #e63900;
+    padding: 2px;
+    margin: -10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 99em;
+    color: #FFFFFF;
+}
+
+.circle6 {
+    bottom: -50px;
+    left: 400px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #ffd508;
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 99em;
+    font-size: 12px;
+    text-align: center;
+    color: #8b2900;
+}
+
+.circle7 {
+    width: 100px;
+    top: 500px;
+    position: absolute;
+    background-color: #e63900;
+    width: 100px;
+    height: 100px;
+    border-radius: 99em;
+}
