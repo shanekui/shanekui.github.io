@@ -1,6 +1,7 @@
-* {
+body {
     font-family: "arial", sans-serif;
     color: #000000;
+    background-color: #E9EDDE;
 }
 
 .aa {
@@ -312,10 +313,6 @@
     position: absolute;
 }
 
-img {
-    background-color: #262422;
-}
-
 .j {
     box-sizing: border-box;
     top: 130px;
@@ -361,12 +358,4 @@ img {
     border-radius: 99em;
     text-align: center;
     font-weight: bold;
-}
-
-p,
-a {
-    box-sizing: border-box;
-    margin-left: 2px;
-    width: 78px;
-    background-color: #F9C22E;
 }
