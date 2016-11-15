@@ -1,0 +1,156 @@
+    body,
+    ul,
+    li,
+    a {
+        font-size: 13px;
+        font-family: "arial", sans-serif;
+        font-weight: bold;
+    }
+    
+    body {
+        padding: 20px;
+    }
+    
+    .list {
+        position: fixed;
+    }
+    
+    ul,
+    li {
+        list-style: none;
+    }
+    /* 選單 li 之樣式 */
+    
+    ul.n1 li {
+        position: relative;
+        float: left;
+    }
+    /* 選單 li 裡面連結之樣式 */
+    
+    ul.n1 li a {
+        display: block;
+        width: 150PX;
+        height: 30px;
+        padding-top: 10px;
+        text-align: center;
+        background: #FABC3C;
+        color: #FFF;
+        border-bottom: 1px solid #CCC;
+    }
+    /* 特定在第一層，以左邊灰線分隔 */
+    
+    ul.n1 > li > a {
+        border-bottom: 1px solid #CCC;
+        border-left: 1px solid #CCC;
+    }
+    
+    ul.n1 > li > a:hover {
+        width: 150PX;
+        height: 30px;
+        color: #FFF;
+        background: #F4D35E;
+    }
+    /* 特定在第一層 > 第二層或以後下拉部分之樣式 */
+    
+    ul.n1 ul {
+        display: none;
+        float: left;
+        position: absolute;
+        left: 0;
+        margin: 0;
+    }
+    /* 當第一層選單被觸發時，指定第二層顯示 */
+    
+    ul.n1 li:hover > ul {
+        display: block;
+    }
+    /* 特定在第二層或以後下拉部分 li 之樣式 */
+    
+    ul.n1 ul li {
+        border-bottom: 1px solid #DDD;
+    }
+    /* 特定在第二層或以後下拉部分 li （最後一項不要底線）之樣式 */
+    
+    ul.n1 ul li:last-child {
+        border-bottom: none;
+    }
+    /* 第二層或以後選單 li 之樣式 */
+    
+    ul.n1 ul a {
+        width: 130PX;
+        height: 10px;
+        padding: 20px 10px;
+        color: #666;
+        background: #F4D35E;
+    }
+    
+    ul.navigation ul a:hover {
+        background: #CCC;
+    }
+    /* 第三層之後，上一層的選單觸發則顯示出來（皆為橫向拓展） */
+    
+    ul.navigation ul li:hover > ul {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+    
+    .add {
+        width: 100px;
+        height: 120px;
+        background-color: #FABC3C;
+        color: white;
+        position: fixed;
+        right: 300px;
+        top: 100px;
+        text-align: center;
+    }
+    
+    #close {
+        left: 10px;
+        top: 10px;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        color: white;
+    }
+    
+    .add img {
+        height: 100px;
+        width: 100px;
+        opacity: 0.9;
+    }
+    
+    #bk {
+        width: 700px;
+    }
+    
+    #bk img {
+        width: 700px;
+    }
+    
+    h2 {
+        font-size: 20px;
+        color: #F4D35E;
+        line-height: 60px;
+        border-color: black;
+    }
+    
+    h4 {
+        text-align: center;
+        font-size: 16px;
+        line-height: 60px;
+        color: #FABC3C;
+        text-decoration: underline;
+    }
+    
+    #good,
+    #bad,
+    #feature {
+        text-align: center;
+        width: 200px;
+        background-color: white;
+        float: left;
+        margin: 10px;
+    }
