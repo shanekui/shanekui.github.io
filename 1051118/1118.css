@@ -1,0 +1,68 @@
+body,
+h1,
+h5,
+h3,
+p {
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+}
+
+body,
+html {
+    color: #000000;
+    height: 100%;
+}
+
+.bgimg {
+    background-image: url(img/p.jpg);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.aa {
+    box-sizing: border-box;
+    position: absolute;
+    height: 50px;
+    width: 105px;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.bb {
+    box-sizing: border-box;
+    position: absolute;
+    height: 50px;
+    width: 105px;
+    padding: 8px;
+    top: 205px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.cc {
+    box-sizing: border-box;
+    position: absolute;
+    height: 50px;
+    width: 105px;
+    padding: 8px;
+    top: 265px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.dd {
+    box-sizing: border-box;
+    position: absolute;
+    height: 50px;
+    width: 105px;
+    padding: 5px;
+    top: 325px;
+    font-size: 24px;
+    text-align: center;
+    background-color: #000000;
+}
